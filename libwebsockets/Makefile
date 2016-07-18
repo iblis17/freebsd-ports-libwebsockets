@@ -7,7 +7,7 @@ DISTVERSIONPREFIX=	v
 CATEGORIES=	net
 MASTER_SITES=	GITHUB
 
-MAINTAINER=	iblis@abeing
+MAINTAINER=	iblis@hs.ntnu.edu.tw
 COMMENT=	C library for lightweight websocket clients and servers
 
 LICENSE=	LGPL21
@@ -15,7 +15,6 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	warmcat
-GH_PROJECT=	${PORTNAME}
 
 USES=	cmake ssl
 USE_LDCONFIG=	yes
