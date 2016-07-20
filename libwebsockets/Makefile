@@ -50,5 +50,6 @@ LIBUV_LIB_DEPENDS=	libuv.so:devel/libuv
 UNIX_SOCK_CMAKE_ON=	-DLWS_UNIX_SOCK=ON
 
 WEBSERVER_CMAKE_ON=	-DLWS_WITH_LWSWS=ON
+WEBSERVER_LIB_DEPENDS=	libuv.so:devel/libuv
 
 .include <bsd.port.mk>
